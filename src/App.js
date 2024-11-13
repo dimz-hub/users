@@ -75,12 +75,12 @@ function handleRemove(id) {
 
   return (
     <div className="flex items-center m-[auto] justify-center    ">
-      <div className=" w-[750px] m-[auto] mt-[20px] ">
-      <div className="flex gap-[15px] flex-wrap ">
+      <div className=" w-[750px] m-[auto] mt-[20px] xs:w-[100vw] ">
+      <div className="flex gap-[15px] flex-wrap xs:items-center xs:justify-center xs:mb-[40px] ">
         {users.map((user ) => {
-          return <div >
+          return < >
             <Card key={user.id}  name ={user?.name} id = {user.id} onRemove = {handleRemove}  age = {user?.age} transform = {user?.transform} info = {user?.info} height = {user?.height}  email={user?.email} src ={user?.src}  />
-          </div>
+          </>
         })}
 
        

@@ -27,7 +27,7 @@ export default function Card({name , email , age , info , src, id, onRemove , he
     <div>
        <div className="users-container"> </div>
 
-<div id="user-template" className={`w-[240px] p-3 h-[260px] ${heightCss} ${transform} relative rounded-[10px] user-template ${isFading ? 'fade-out' : ''} `}   
+<div id="user-template" className={`w-[240px] p-3  ${heightCss} ${transform} relative rounded-[10px] user-template ${isFading ? 'fade-out' : ''} `}   
      
  >
   <div className="user-container relative ">
